@@ -14,22 +14,20 @@ canvas {
     background: #222;
 }
 
+.palette-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 30px);
+    gap: 8px;
+}
+
 .palette-color {
     width: 30px;
     height: 30px;
     cursor: pointer;
     border: 2px solid #444;
+    border-radius: 4px;
 }
 
 .palette-color.selected {
     border: 2px solid white;
-}
-
-.frame-thumb {
-    width: 64px;
-    height: 64px;
-    border: 2px solid #555;
-    margin-right: 5px;
-    cursor: pointer;
-    image-rendering: pixelated;
 }

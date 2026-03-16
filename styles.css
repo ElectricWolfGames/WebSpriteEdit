@@ -3,6 +3,17 @@ body {
     color: white;
 }
 
+.editor-panel {
+    background: #141414;
+    border: 1px solid #303030;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.panel-title {
+    margin-bottom: 12px;
+}
+
 #canvasWrapper {
     position: relative;
     display: inline-block;
@@ -12,6 +23,7 @@ canvas {
     image-rendering: pixelated;
     border: 2px solid #444;
     background: #222;
+    display: block;
 }
 
 .palette-grid {
